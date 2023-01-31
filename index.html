@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Proyecto_CV</title>
+	<link rel="icon" type="image/x-icon" href="icono.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<!--Informacion Personal-->
+	<div class="inf-personal">
+		<img src="71.jpg" alt="Foto_de_Perfil_Kathy_Duncan" width="200px" height="200px" id="img">
+		<h3>Informacion Personal</h3>
+		<ul>
+			<li>Telefono: (290) 341-7505</li>
+			<li>Direccion: Thames 2337</li>
+			<li>Email: kathy.duncan@example.com</li>
+			<li>Fecha de Nacimiento: 2/7/1990</li>
+			<li>Edad: 32 Años</li>
+		</ul>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1642.4242913678688!2d-58.42448214173052!3d-34.58269768683179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb52a36a0ff5f%3A0x79cba4664c31f9c!2sThames%202337%2C%20B1609IXA%20CABA!5e0!3m2!1ses!2sar!4v1675069263905!5m2!1ses!2sar" width="300" height="300" style="margin: 60px 15px 15px 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+
+	<!--Nombre y Apellido-->
+	<div class="titulo">
+		<h1>Kathy Duncan</h1>
+		<!--Formacion Principal-->
+		<h2>Tecnicatura Universitaria en Programacion Informatica</h2>
+	</div>
+
+	<!--Formacion Academica-->
+	<div class="formacion">
+		<h3 id="h-3">Formacion Academica</h3>
+		<ul id="ul">
+			<li>Tecnico Universitaria en Redes Informaticas (Finalizado en 2015)</li>
+			<li>Grado Superor en Desarrollo Web (Finalizado en 2011)</li>
+			<li>Tecnico Infoatico Personal y Profesional (Finalizado en 2009)</li>
+		</ul>
+	</div>
+
+	<!--Experiencia-->
+	<div class="experiencia">
+		<h3 id="h-3">Historial Laboral</h3>
+		<h4 id="h-4">Allianz Seguros (2020-Actualidad)</h4>
+		<ul id="ul">
+			<li>Front-End Developer UX team</li>
+			<li>Analizar datos de navegacion e indexacion</li>
+			<li>Desarrolar el Front-End de integraciones con terceros usando Bootstrap, React.js y Docker</li>
+		</ul>
+		<h4 id="h-4">Soporte W3Schools (2017-2020)</h4>
+		<ul id="ul">
+			<li>Sorporte Tecnico en Proyecto w3schools</li>
+			<li>Asistente Java-Script Junior</li>
+		</ul>
+		<h4 id="h-4">Desarroladora Web (2014-2017)</h4>
+		<ul id="ul">
+			<li>Participacion en proyectos de software libre (Silver Storm)</li>
+			<li>Experiencia en desarrollo de alicaciones adaptadas a eCommerce y CMS</li>
+		</ul>
+		<h4 id="h-4">Banco BBVA (2011-2013)</h4>
+		<ul id="ul">
+			<li>Responsable de crear un comparador de tarjetas de credito anti falsificacion</li>
+			<li>Desarroladora de una pagina web con capacidad para mas de un millon de usuarios diariamente</li>
+		</ul>
+	</div>
+
+	<!--Idiomas-->
+	<div id="adicional">
+		<h3 id="h-3">Idiomas</h3>
+		<ul id="ul">
+			<li>Ingles: Avanzado</li>
+		</ul>
+	</div>
+
+	<!--Likes-->
+	<footer class="footer">
+		<h3>¿Te Gusta Este CV?</h3>
+		<h4 id="h-4-1">Gente que le ha gustado:</h4>
+		<h4 id="contSi"></h4>
+		<h4 id="h-4-2">Gente que no le ha gustado:</h4>
+		<h4 id="contNo"></h4>
+		<button id="button1">¡Si!</button>
+		<button id="button2">¡No!</button>
+	</footer>
+
+	<script src="proyecto.js"></script>
+</body>
+	
+</html>

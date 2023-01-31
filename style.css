@@ -1,0 +1,143 @@
+*{
+	color: #0F165C;
+	box-sizing: border-box;
+}
+
+.inf-personal{
+	height: 1700px;
+	width: 330px ;
+	background: #BCBCBC;
+	float: left;
+}
+.inf-personal h3{
+	margin: 20px;
+}
+
+#img{
+	border-radius: 35px;
+  	padding: 30px; 
+  	width: 300px;
+  	height: 300px;
+}
+
+
+.titulo h1 {
+	margin: 0px 200px 0px 380px;
+}
+.titulo h2 {
+	margin: 10px 200px 100px 380px;
+}
+
+
+#h-3 {
+	margin: 10px 200px 20px 380px;
+}
+
+#h-4 {
+	margin: 10px 200px 20px 380px;
+}
+
+#ul {
+	margin: 0px 200px 100px 400px;
+}
+
+.footer {
+	text-align: center;
+	margin: 30px;
+}
+
+#button1 {
+	border: solid 2px green;
+	padding: 1px 9px 1px 9px;
+	text-align: center;
+}
+
+#button2 {
+	border: solid 2px red;
+	text-align: center;
+}
+
+.footer #h-4-1 {
+	float: left;
+	text-align: center;
+	margin: 30px;
+}
+
+.footer #h-4-2 {
+	float: right;
+	text-align: center;
+	margin: 30px;
+}
+
+.footer #contSi {
+	float: right;
+	text-align: center;
+	margin: 30px;
+}
+
+.footer #contNo {
+	float: left;
+	text-align: center;
+	margin: 30px;
+
+}
+
+@media only screen and (max-width: 750px) {
+
+	.inf-personal{
+		height: 100%;
+		width: 100%;
+		background: #BCBCBC;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.inf-personal h3{
+	text-align: center;
+	}
+
+	#img{
+	border-radius: 35px;
+  	padding: 30px; 
+  	width: 300px;
+  	height: 300px;
+  	display: block;
+  	margin: 0 auto;
+	}
+
+	.titulo h1 {
+	margin: 30px;
+	text-align: center;
+	}
+
+	.titulo h2 {
+	margin: 30px;
+	text-align: center;
+	}
+
+	#h-3 {
+	margin: 30px;
+	text-align: center;
+	}
+
+	#h-4 {
+	margin: 30px;
+	text-align: center;
+	}
+
+	#ul {
+	margin: 0px;
+	text-align: center;
+	}
+
+	#button1 {
+	border: solid 2px green;
+	padding: 1px 9px 1px 9px;
+	text-align: center;
+	}
+
+	#button2 {
+	border: solid 2px red;
+	text-align: center;
+	}
+}
